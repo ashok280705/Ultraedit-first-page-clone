@@ -1,0 +1,276 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(34, 34, 34);
+}
+nav {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 25vw;
+  padding-left: 0px;
+  padding: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+li img {
+  height: 20px;
+  width: auto;
+  transform: translateX(-5px) translateY(2px);
+}
+img {
+  height: 60px;
+  width: auto;
+}
+li {
+  font-size: 17px;
+}
+li:hover {
+    cursor: pointer;
+  color: orangered;
+}
+.container {
+  /* box-shadow: -2px -4px 14px 0px black inset; */
+  /* background: rgb(250, 249, 249); */
+  margin-left: 154px;
+  /* border-radius: 10px; */
+  /* border: 2px solid rgb(210, 207, 207); */
+  margin-right: 135px;
+  height: 160vh;
+  margin-top: 15px;
+}
+h1 {
+  margin-top: 54px;
+  text-align: center;
+  font-weight: 350;
+  font-size: 48px;
+}
+.text {
+  font-weight: 500;
+}
+h1 span .img2 {
+  height: 31px;
+  transform: translateX(14px);
+}
+h3 {
+  padding: 0px 115px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+.buttonn {
+  display: flex;
+  justify-content: center;
+}
+button {
+  cursor: pointer;
+  background-color: rgb(37, 182, 255);
+  box-sizing: border-box;
+  border-radius: 7px;
+  border: 2px aqua;
+  padding: 10px;
+  height: 50px;
+  width: 300px;
+}
+.link {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+.text3 img {
+  transform: translateX(167px) translateY(61px);
+  height: 65px;
+}
+.text3 {
+  transform: translateX(-21px) translateY(31px);
+}
+.new {
+  font-weight: 400;
+  transform: translateX(-150px) translateY(-15px);
+}
+.new span {
+  font-size: 14.4px;
+  font-weight: 200;
+}
+.new span .hotlink {
+  text-decoration: none;
+}
+.gridd {
+  margin: 10vh;
+  height: 88vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 14px 22px;
+}
+.box1 {
+  background-color: rgb(246, 245, 245);
+}
+.box1 h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.Dbox {
+  height: auto;
+  width: 133px;
+  transform: translateX(102px) translateY(27px);
+  background-color: rgb(104, 189, 104);
+}
+.Dbox a {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+.Dboxx {
+  height: auto;
+  width: 133px;
+  transform: translateX(102px) translateY(9px);
+  background-color: rgb(104, 189, 104);
+}
+.Dboxx a {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.container2{
+  box-sizing: border-box;
+  transform: translateX(-8px);
+  background-color: #222222 ;
+  height: 749px;
+  width: 98vw;
+}
+.subcont{
+  gap: 20px;
+justify-content: center;
+  align-items: center;
+  height: 55vh;
+  /* border: 2px solid white; */
+  display: flex;
+  color: white;
+}
+.subcont h3{
+  
+  transform: translateX(-90px);
+}
+.subcont h3 b{
+  color: white;
+  /* transform: translateX(20px); */
+}
+.subcont h3 p{
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+.quriyy{
+  margin-top: 40px;
+  background-color:white;
+  border: 2px solid;
+  height: 34vh;
+  width: 20vw;
+  transform: translateY(-28px) translateX(-85px);
+  border-radius: 15px;
+}
+.quriyy h2{
+  color: rgb(9, 206, 206);
+  text-align: center;
+  font-weight: 400;
+  text-align: center;
+}
+.quriyy span{
+  font-size: 13px;
+  position: relative;
+  left: 97px;
+}
+.quriyy form{
+  text-align: center;
+  margin: 10px;
+}
+#inputt{
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: 300;
+  height: 51px;
+  width: 219px;
+}
+.quriyy button{
+  box-shadow: 3px 3px 8px 0px rgb(119 208 252);
+  font-size: 15px;
+  color: white;
+  font-weight: 700;
+  transform: translateX(45px);
+  height: 51px;
+  width: 219px;
+}
+.container3{
+  height: 45vh;
+color: white;
+padding-left:20vw ;
+}
+.container3 h2{
+  font-weight: 400;
+  color: white;
+}
+.container3 p{
+  color: white;
+}
+.container3 p a{
+  text-decoration: none;
+  color: rgb(0, 182, 209);
+}
+.list1{
+ padding-left: 252px;
+ padding-top: 45px;
+ padding-bottom: 73px;
+  display: flex;
+ gap: 35px;
+}
+.list1 ul li{
+  list-style: none;
+}
+.list1 ul li a{
+  text-decoration: none;
+  font-size: 14px;
+}
+.list1 ul li p{
+  font-size: 14px;
+}
+.list1 ul li button{
+  color: white;
+  font-weight: 600;
+  height: 38px;
+  width: 213px;
+  margin-top: 10px;
+}
+.list1 ul li form input{
+  box-sizing: border-box;
+  padding-left: 15px;
+  border: 2px solid #6b6a6a;
+  border-radius: 5px;
+  height: 38px;
+  width: 200px;
+}
+.list2{
+  display: flex;
+  justify-content: space-around;
+}
+.list2 a img{
+  height: 50px;
+  width: 157px;
+}
+.sublist a img{
+  padding-left: 9px;
+  height: 26px;
+  width: auto;
+}
+.list3{
+  padding-bottom: 28px;
+  padding-left: 18vw;
+  font-size: 12px;
+  font-weight: 400;
+}
